@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10 - Checkout without last name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3033d3f-5fe7-4732-88f3-4141848bb838</testCaseGuid>
+</TestCaseEntity>

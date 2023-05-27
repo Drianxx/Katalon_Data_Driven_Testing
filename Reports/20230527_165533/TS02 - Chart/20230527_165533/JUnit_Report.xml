@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS02 - Chart" time="19.826" tests="2" failures="0" errors="0">
+   <testsuite name="TS02 - Chart" tests="2" failures="0" errors="0" time="19.826" skipped="0" timestamp="2023-05-27 16:55:37" hostname="adria - DESKTOP-2B5N6V0" id="Test Suites/TS02 - Chart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Coding.ID\\Advanced Class\\Task\\Katalon_Data_Driven_Testing\\Reports\\20230527_165533\\TS02 - Chart\\20230527_165533"/>
+         <property name="logFiles" value="D:\\Coding.ID\\Advanced Class\\Task\\Katalon_Data_Driven_Testing\\Reports\\20230527_165533\\TS02 - Chart\\20230527_165533\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="adria - DESKTOP-2B5N6V0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.2"/>
+         <property name="sessionId" value="23ae0291bb0f3b369322eef8cbf5e0e9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TS02 - Cart/TC07 - Add to chart" time="10.461" classname="Test Cases/TS02 - Cart/TC07 - Add to chart" status="PASSED">
+         <system-out><![CDATA[2023-05-27 16:55:38 - [TEST_CASE][PASSED] - Test Cases/TS02 - Cart/TC07 - Add to chart: Test Cases/TS02 - Cart/TC07 - Add to chart
+
+2023-05-27 16:55:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-27 16:55:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-27 16:55:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-27 16:55:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-27 16:55:42 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-05-27 16:55:43 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-05-27 16:55:43 - [TEST_STEP][PASSED] - setText(findTestObject("Login_element/Username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Login_element/Username'
+
+2023-05-27 16:55:44 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_element/Username'
+
+2023-05-27 16:55:44 - [TEST_STEP][PASSED] - setText(findTestObject("Login_element/Password"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/Login_element/Password'
+
+2023-05-27 16:55:45 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login_element/Password'
+
+2023-05-27 16:55:45 - [TEST_STEP][PASSED] - click(findTestObject("Login_element/Login_Btn")): Object: 'Object Repository/Login_element/Login_Btn' is clicked on
+
+2023-05-27 16:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_element/Login_Btn' is clicked on
+
+2023-05-27 16:55:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product_element/button_Add to cart")): Object: 'Object Repository/Product_element/button_Add to cart' is clicked on
+
+2023-05-27 16:55:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_element/button_Add to cart' is clicked on
+
+2023-05-27 16:55:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product_element/button_Add to cart_1")): Object: 'Object Repository/Product_element/button_Add to cart_1' is clicked on
+
+2023-05-27 16:55:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_element/button_Add to cart_1' is clicked on
+
+2023-05-27 16:55:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product_element/a_2")): Object: 'Object Repository/Product_element/a_2' is clicked on
+
+2023-05-27 16:55:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_element/a_2' is clicked on
+
+2023-05-27 16:55:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Chart_Element/div_Sauce Labs Backpack"), 0): Object 'Object Repository/Chart_Element/div_Sauce Labs Backpack' is present
+
+2023-05-27 16:55:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-27 16:55:47 - [MESSAGE][PASSED] - Object 'Object Repository/Chart_Element/div_Sauce Labs Backpack' is present
+
+2023-05-27 16:55:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Chart_Element/div_Sauce Labs Bike Light"), 0): Object 'Object Repository/Chart_Element/div_Sauce Labs Bike Light' is present
+
+2023-05-27 16:55:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-27 16:55:47 - [MESSAGE][PASSED] - Object 'Object Repository/Chart_Element/div_Sauce Labs Bike Light' is present
+
+2023-05-27 16:55:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-27 16:55:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TS02 - Cart/TC08 - Remove from chart" time="8.876" classname="Test Cases/TS02 - Cart/TC08 - Remove from chart" status="PASSED">
+         <system-out><![CDATA[2023-05-27 16:55:48 - [TEST_CASE][PASSED] - Test Cases/TS02 - Cart/TC08 - Remove from chart: Test Cases/TS02 - Cart/TC08 - Remove from chart
+
+2023-05-27 16:55:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-27 16:55:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-27 16:55:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-27 16:55:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-27 16:55:50 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-05-27 16:55:50 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-05-27 16:55:50 - [TEST_STEP][PASSED] - setText(findTestObject("Login_element/Username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Login_element/Username'
+
+2023-05-27 16:55:51 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_element/Username'
+
+2023-05-27 16:55:51 - [TEST_STEP][PASSED] - setText(findTestObject("Login_element/Password"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/Login_element/Password'
+
+2023-05-27 16:55:52 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login_element/Password'
+
+2023-05-27 16:55:52 - [TEST_STEP][PASSED] - click(findTestObject("Login_element/Login_Btn")): Object: 'Object Repository/Login_element/Login_Btn' is clicked on
+
+2023-05-27 16:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_element/Login_Btn' is clicked on
+
+2023-05-27 16:55:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product_element/button_Add to cart")): Object: 'Object Repository/Product_element/button_Add to cart' is clicked on
+
+2023-05-27 16:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_element/button_Add to cart' is clicked on
+
+2023-05-27 16:55:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product_element/button_Add to cart_1")): Object: 'Object Repository/Product_element/button_Add to cart_1' is clicked on
+
+2023-05-27 16:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_element/button_Add to cart_1' is clicked on
+
+2023-05-27 16:55:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Product_element/a_2")): Object: 'Object Repository/Product_element/a_2' is clicked on
+
+2023-05-27 16:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_element/a_2' is clicked on
+
+2023-05-27 16:55:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Chart_Element/div_Sauce Labs Backpack"), 0): Object 'Object Repository/Chart_Element/div_Sauce Labs Backpack' is present
+
+2023-05-27 16:55:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-27 16:55:55 - [MESSAGE][PASSED] - Object 'Object Repository/Chart_Element/div_Sauce Labs Backpack' is present
+
+2023-05-27 16:55:55 - [TEST_STEP][PASSED] - click(findTestObject("Chart_Element/button_Remove")): Object: 'Object Repository/Chart_Element/button_Remove' is clicked on
+
+2023-05-27 16:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Chart_Element/button_Remove' is clicked on
+
+2023-05-27 16:55:55 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Chart_Element/div_Sauce Labs Bike Light"), 0): Web element with id: 'Object Repository/Chart_Element/div_Sauce Labs Bike Light' located by 'By.xpath: //a[@id='item_0_title_link']/div' is not present after '30' second(s)
+
+2023-05-27 16:55:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-27 16:55:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='item_0_title_link']/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-27 16:55:56 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Chart_Element/div_Sauce Labs Bike Light' located by 'By.xpath: //a[@id='item_0_title_link']/div' is not present after '30' second(s)
+
+2023-05-27 16:55:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-27 16:55:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-27 16:55:37 - [TEST_SUITE][PASSED] - TS02 - Chart: Test Cases/TS02 - Cart/TC08 - Remove from chart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

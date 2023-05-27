@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01 - Login,Chrome 113.0.0.0,,,2023-05-27 13:32:27,2023-05-27 13:32:35,8.033s,PASSED
+,,,,,,,
+Test Cases/TS01 - Login/TC01 - Login sucessfully,Chrome 113.0.0.0,,,2023-05-27 13:32:28,2023-05-27 13:32:35,7.559s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-27 13:32:28,2023-05-27 13:32:31,2.894s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 113.0.0.0,,,2023-05-27 13:32:31,2023-05-27 13:32:32,0.860s,PASSED
+"setText(findTestObject(""Login_element/Username""), Username)",Chrome 113.0.0.0,,,2023-05-27 13:32:32,2023-05-27 13:32:33,0.897s,PASSED
+"setText(findTestObject(""Login_element/Password""), Password)",Chrome 113.0.0.0,,,2023-05-27 13:32:33,2023-05-27 13:32:34,0.776s,PASSED
+"click(findTestObject(""Login_element/Login_Btn""))",Chrome 113.0.0.0,,,2023-05-27 13:32:34,2023-05-27 13:32:34,0.510s,PASSED
+"verifyElementPresent(findTestObject(""Product_element/header_product""), 3)",Chrome 113.0.0.0,,,2023-05-27 13:32:34,2023-05-27 13:32:34,0.390s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-27 13:32:34,2023-05-27 13:32:35,0.725s,PASSED

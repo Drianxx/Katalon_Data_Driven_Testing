@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11 - Checkout without postal code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7b893568-e193-4988-9d42-2f7beb79a044</testCaseGuid>
+</TestCaseEntity>

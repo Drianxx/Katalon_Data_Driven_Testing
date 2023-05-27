@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/TS01 - Login/TC01 - Login sucessfully","testCaseId":"Test Cases/TS01 - Login/TC01 - Login sucessfully","iterationVariableName":"Password","bindedValues":{"Username":"\u0027standard_user\u0027","Password":"\u0027secret_sauce\u0027"}}
+{"testCaseName":"Test Cases/TS01 - Login/TC02 - Login with no username","testCaseId":"Test Cases/TS01 - Login/TC02 - Login with no username","iterationVariableName":""}
+{"testCaseName":"Test Cases/TS01 - Login/TC03 - Login with no password","testCaseId":"Test Cases/TS01 - Login/TC03 - Login with no password","iterationVariableName":"","bindedValues":{"Username":"\u0027standard_user\u0027"}}

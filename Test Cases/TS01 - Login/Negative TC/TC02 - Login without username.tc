@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02 - Login without username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8266fce-2075-49fb-b83b-7a1d6a5bc7d2</testCaseGuid>
+</TestCaseEntity>

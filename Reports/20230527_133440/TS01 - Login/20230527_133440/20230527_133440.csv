@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01 - Login,Chrome 113.0.0.0,,,2023-05-27 13:34:43,2023-05-27 13:34:59,15.941s,PASSED
+,,,,,,,
+Test Cases/TS01 - Login/TC01 - Login sucessfully,Chrome 113.0.0.0,,,2023-05-27 13:34:44,2023-05-27 13:34:51,7.211s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-27 13:34:44,2023-05-27 13:34:47,2.791s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 113.0.0.0,,,2023-05-27 13:34:47,2023-05-27 13:34:47,0.503s,PASSED
+"setText(findTestObject(""Login_element/Username""), Username)",Chrome 113.0.0.0,,,2023-05-27 13:34:47,2023-05-27 13:34:48,0.928s,PASSED
+"setText(findTestObject(""Login_element/Password""), Password)",Chrome 113.0.0.0,,,2023-05-27 13:34:48,2023-05-27 13:34:49,0.768s,PASSED
+"click(findTestObject(""Login_element/Login_Btn""))",Chrome 113.0.0.0,,,2023-05-27 13:34:49,2023-05-27 13:34:50,0.484s,PASSED
+"verifyElementPresent(findTestObject(""Product_element/header_product""), 3)",Chrome 113.0.0.0,,,2023-05-27 13:34:50,2023-05-27 13:34:50,0.472s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-27 13:34:50,2023-05-27 13:34:51,0.715s,PASSED
+,,,,,,,
+Test Cases/TS01 - Login/TC02 - Login with no username,Chrome 113.0.0.0,,,2023-05-27 13:34:51,2023-05-27 13:34:54,3.715s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-27 13:34:51,2023-05-27 13:34:52,1.226s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 113.0.0.0,,,2023-05-27 13:34:52,2023-05-27 13:34:53,0.457s,PASSED
+"click(findTestObject(""Login_element/Login_Btn""))",Chrome 113.0.0.0,,,2023-05-27 13:34:53,2023-05-27 13:34:53,0.499s,PASSED
+"verifyTextPresent(""Epic sadface: Username is required"", false)",Chrome 113.0.0.0,,,2023-05-27 13:34:53,2023-05-27 13:34:54,0.557s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-27 13:34:54,2023-05-27 13:34:54,0.669s,PASSED
+,,,,,,,
+Test Cases/TS01 - Login/TC03 - Login with no password,Chrome 113.0.0.0,,,2023-05-27 13:34:54,2023-05-27 13:34:59,4.539s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-27 13:34:55,2023-05-27 13:34:56,1.233s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 113.0.0.0,,,2023-05-27 13:34:56,2023-05-27 13:34:56,0.481s,PASSED
+"setText(findTestObject(""Login_element/Username""), ""standard_user"")",Chrome 113.0.0.0,,,2023-05-27 13:34:56,2023-05-27 13:34:57,0.834s,PASSED
+"click(findTestObject(""Login_element/Login_Btn""))",Chrome 113.0.0.0,,,2023-05-27 13:34:57,2023-05-27 13:34:58,0.434s,PASSED
+"verifyTextPresent(""Epic sadface: Password is required"", false)",Chrome 113.0.0.0,,,2023-05-27 13:34:58,2023-05-27 13:34:58,0.539s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-27 13:34:58,2023-05-27 13:34:59,0.683s,PASSED

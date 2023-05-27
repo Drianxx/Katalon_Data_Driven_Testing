@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01 - Login,Chrome 113.0.0.0,,,2023-05-27 13:32:59,2023-05-27 13:33:11,11.908s,PASSED
+,,,,,,,
+Test Cases/TS01 - Login/TC01 - Login sucessfully,Chrome 113.0.0.0,,,2023-05-27 13:33:00,2023-05-27 13:33:07,7.665s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-27 13:33:00,2023-05-27 13:33:03,2.725s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 113.0.0.0,,,2023-05-27 13:33:03,2023-05-27 13:33:03,0.621s,PASSED
+"setText(findTestObject(""Login_element/Username""), Username)",Chrome 113.0.0.0,,,2023-05-27 13:33:03,2023-05-27 13:33:04,0.920s,PASSED
+"setText(findTestObject(""Login_element/Password""), Password)",Chrome 113.0.0.0,,,2023-05-27 13:33:04,2023-05-27 13:33:05,0.730s,PASSED
+"click(findTestObject(""Login_element/Login_Btn""))",Chrome 113.0.0.0,,,2023-05-27 13:33:05,2023-05-27 13:33:06,0.504s,PASSED
+"verifyElementPresent(findTestObject(""Product_element/header_product""), 3)",Chrome 113.0.0.0,,,2023-05-27 13:33:06,2023-05-27 13:33:06,0.490s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-27 13:33:06,2023-05-27 13:33:07,1.183s,PASSED
+,,,,,,,
+Test Cases/TS01 - Login/TC02 - Login with no username,Chrome 113.0.0.0,,,2023-05-27 13:33:07,2023-05-27 13:33:11,3.770s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-27 13:33:08,2023-05-27 13:33:09,1.240s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 113.0.0.0,,,2023-05-27 13:33:09,2023-05-27 13:33:09,0.490s,PASSED
+"click(findTestObject(""Login_element/Login_Btn""))",Chrome 113.0.0.0,,,2023-05-27 13:33:09,2023-05-27 13:33:10,0.505s,PASSED
+"verifyTextPresent(""Epic sadface: Username is required"", false)",Chrome 113.0.0.0,,,2023-05-27 13:33:10,2023-05-27 13:33:10,0.551s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-27 13:33:10,2023-05-27 13:33:11,0.663s,PASSED
